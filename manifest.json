@@ -1,0 +1,843 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-11-24T20:19:38.110745+00:00",
+  "data_root": "F:\\ReferenceData",
+  "workspace_root": "G:\\My Drive\\Antigravity\\Projects\\Maps and Wikepedia",
+  "datasets": {
+    "wikipedia": {
+      "source_url": "https://download.kiwix.org/zim/wikipedia/wikipedia_en_all_nopic_2026-06.zim",
+      "path": "F:\\ReferenceData\\wikipedia\\wikipedia_en_all_nopic_2026-06.zim",
+      "exists": true,
+      "expected_sha256": "441a56d9e05b2d98f8ae9acb7986a513ed47904d73852c92dc6b7d50baa122e5",
+      "size_bytes": 52690706555,
+      "sha256": "441a56d9e05b2d98f8ae9acb7986a513ed47904d73852c92dc6b7d50baa122e5",
+      "sha256_verified": true,
+      "article_count": 19191219,
+      "all_entry_count": 19707096,
+      "media_count": 515775,
+      "has_fulltext_index": true,
+      "has_title_index": true,
+      "status": "ready"
+    },
+    "geonames": {
+      "source_url": "https://download.geonames.org/export/dump/",
+      "raw_dir": "F:\\ReferenceData\\geonames",
+      "raw_files": {
+        "admin1CodesASCII.txt": {
+          "path": "F:\\ReferenceData\\geonames\\admin1CodesASCII.txt",
+          "size_bytes": 151571
+        },
+        "admin2Codes.txt": {
+          "path": "F:\\ReferenceData\\geonames\\admin2Codes.txt",
+          "size_bytes": 2371539
+        },
+        "allCountries.zip": {
+          "path": "F:\\ReferenceData\\geonames\\allCountries.zip",
+          "size_bytes": 422568324
+        },
+        "cities500.zip": {
+          "path": "F:\\ReferenceData\\geonames\\cities500.zip",
+          "size_bytes": 13936260
+        },
+        "countryInfo.txt": {
+          "path": "F:\\ReferenceData\\geonames\\countryInfo.txt",
+          "size_bytes": 32112
+        },
+        "featureCodes_en.txt": {
+          "path": "F:\\ReferenceData\\geonames\\featureCodes_en.txt",
+          "size_bytes": 58642
+        },
+        "readme.txt": {
+          "path": "F:\\ReferenceData\\geonames\\readme.txt",
+          "size_bytes": 8843
+        },
+        "timeZones.txt": {
+          "path": "F:\\ReferenceData\\geonames\\timeZones.txt",
+          "size_bytes": 13896
+        }
+      },
+      "sqlite_path": "F:\\ReferenceData\\databases\\geonames.sqlite",
+      "sqlite_exists": true,
+      "sqlite_size_bytes": 3788034048,
+      "table_counts": {
+        "places": 13484425,
+        "places_rtree": 13484425,
+        "countries": 252,
+        "admin1": 3865,
+        "admin2": 47752,
+        "timezones": 418,
+        "feature_codes": 685
+      },
+      "status": "ready"
+    },
+    "natural_earth": {
+      "vector_geopackage": {
+        "source_url": "https://naciscdn.org/naturalearth/packages/natural_earth_vector.gpkg.zip",
+        "path": "F:\\ReferenceData\\natural_earth\\vector\\natural_earth_vector.gpkg",
+        "exists": true,
+        "size_bytes": 885293056,
+        "layer_count": 183,
+        "layers": [
+          {
+            "table_name": "ne_10m_admin_0_antarctic_claim_limit_lines",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_admin_0_antarctic_claims",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_admin_0_boundary_lines_disputed_areas",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_admin_0_boundary_lines_land",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_admin_0_boundary_lines_map_units",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_admin_0_boundary_lines_maritime_indicator",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_admin_0_boundary_lines_maritime_indicator_chn",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_admin_0_countries",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_admin_0_countries_arg",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_admin_0_countries_bdg",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_admin_0_countries_bra",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_admin_0_countries_chn",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_admin_0_countries_deu",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_admin_0_countries_egy",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_admin_0_countries_esp",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_admin_0_countries_fra",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_admin_0_countries_gbr",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_admin_0_countries_grc",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_admin_0_countries_idn",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_admin_0_countries_ind",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_admin_0_countries_iso",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_admin_0_countries_isr",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_admin_0_countries_ita",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_admin_0_countries_jpn",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_admin_0_countries_kor",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_admin_0_countries_lakes",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_admin_0_countries_mar",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_admin_0_countries_nep",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_admin_0_countries_nld",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_admin_0_countries_pak",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_admin_0_countries_pol",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_admin_0_countries_prt",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_admin_0_countries_pse",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_admin_0_countries_rus",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_admin_0_countries_sau",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_admin_0_countries_swe",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_admin_0_countries_tlc",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_admin_0_countries_tur",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_admin_0_countries_twn",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_admin_0_countries_ukr",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_admin_0_countries_usa",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_admin_0_countries_vnm",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_admin_0_disputed_areas",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_admin_0_disputed_areas_scale_rank_minor_islands",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_admin_0_label_points",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_admin_0_map_subunits",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_admin_0_map_units",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_admin_0_names",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_admin_0_pacific_groupings",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_admin_0_scale_rank",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_admin_0_scale_rank_minor_islands",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_admin_0_seams",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_admin_0_sovereignty",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_admin_1_label_points",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_admin_1_label_points_details",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_admin_1_seams",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_admin_1_sel",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_admin_1_states_provinces",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_admin_1_states_provinces_lakes",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_admin_1_states_provinces_lines",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_admin_1_states_provinces_scale_rank",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_admin_1_states_provinces_scale_rank_minor_islands",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_admin_2_counties",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_admin_2_counties_lakes",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_admin_2_counties_lines",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_admin_2_counties_scale_rank",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_admin_2_counties_scale_rank_minor_islands",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_admin_2_counties_to_match",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_admin_2_label_points",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_admin_2_label_points_details",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_airports",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_antarctic_ice_shelves_lines",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_antarctic_ice_shelves_polys",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_coastline",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_geographic_lines",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_geography_marine_polys",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_geography_regions_elevation_points",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_geography_regions_points",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_geography_regions_polys",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_glaciated_areas",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_lakes",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_lakes_australia",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_lakes_europe",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_lakes_historic",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_lakes_north_america",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_lakes_pluvial",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_land",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_land_ocean_label_points",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_land_ocean_seams",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_land_scale_rank",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_minor_islands",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_minor_islands_coastline",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_minor_islands_label_points",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_ocean",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_ocean_scale_rank",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_parks_and_protected_lands_area",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_parks_and_protected_lands_line",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_parks_and_protected_lands_point",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_parks_and_protected_lands_scale_rank",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_playas",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_populated_places",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_populated_places_simple",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_ports",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_railroads",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_railroads_north_america",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_reefs",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_rivers_australia",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_rivers_europe",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_rivers_lake_centerlines",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_rivers_lake_centerlines_scale_rank",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_rivers_north_america",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_roads",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_roads_north_america",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_time_zones",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_urban_areas",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_10m_urban_areas_landscan",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_110m_admin_0_boundary_lines_land",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_110m_admin_0_countries",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_110m_admin_0_countries_lakes",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_110m_admin_0_map_units",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_110m_admin_0_pacific_groupings",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_110m_admin_0_scale_rank",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_110m_admin_0_sovereignty",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_110m_admin_0_tiny_countries",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_110m_admin_1_states_provinces",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_110m_admin_1_states_provinces_lakes",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_110m_admin_1_states_provinces_lines",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_110m_admin_1_states_provinces_scale_rank",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_110m_coastline",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_110m_geographic_lines",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_110m_geography_marine_polys",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_110m_geography_regions_elevation_points",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_110m_geography_regions_points",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_110m_geography_regions_polys",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_110m_glaciated_areas",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_110m_lakes",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_110m_land",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_110m_ocean",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_110m_populated_places",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_110m_populated_places_simple",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_110m_rivers_lake_centerlines",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_50m_admin_0_boundary_lines_disputed_areas",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_50m_admin_0_boundary_lines_land",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_50m_admin_0_boundary_lines_maritime_indicator",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_50m_admin_0_boundary_lines_maritime_indicator_chn",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_50m_admin_0_boundary_map_units",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_50m_admin_0_breakaway_disputed_areas",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_50m_admin_0_breakaway_disputed_areas_scale_rank",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_50m_admin_0_countries",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_50m_admin_0_countries_lakes",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_50m_admin_0_map_subunits",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_50m_admin_0_map_units",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_50m_admin_0_pacific_groupings",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_50m_admin_0_scale_rank",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_50m_admin_0_sovereignty",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_50m_admin_0_tiny_countries",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_50m_admin_0_tiny_countries_scale_rank",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_50m_admin_1_seams",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_50m_admin_1_states_provinces",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_50m_admin_1_states_provinces_lakes",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_50m_admin_1_states_provinces_lines",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_50m_admin_1_states_provinces_scale_rank",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_50m_airports",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_50m_antarctic_ice_shelves_lines",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_50m_antarctic_ice_shelves_polys",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_50m_coastline",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_50m_geographic_lines",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_50m_geography_marine_polys",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_50m_geography_regions_elevation_points",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_50m_geography_regions_points",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_50m_geography_regions_polys",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_50m_glaciated_areas",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_50m_lakes",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_50m_lakes_historic",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_50m_land",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_50m_ocean",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_50m_playas",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_50m_populated_places",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_50m_populated_places_simple",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_50m_ports",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_50m_rivers_lake_centerlines",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_50m_rivers_lake_centerlines_scale_rank",
+            "data_type": "features"
+          },
+          {
+            "table_name": "ne_50m_urban_areas",
+            "data_type": "features"
+          }
+        ],
+        "status": "ready"
+      },
+      "rasters": {
+        "root": "F:\\ReferenceData\\natural_earth\\raster",
+        "count": 3,
+        "files": [
+          {
+            "dataset": "HYP_HR_SR_OB_DR",
+            "name": "HYP_HR_SR_OB_DR.tif",
+            "path": "F:\\ReferenceData\\natural_earth\\raster\\HYP_HR_SR_OB_DR\\HYP_HR_SR_OB_DR.tif",
+            "size_bytes": 699970682
+          },
+          {
+            "dataset": "NE1_50M_SR_W",
+            "name": "NE1_50M_SR_W.tif",
+            "path": "F:\\ReferenceData\\natural_earth\\raster\\NE1_50M_SR_W\\NE1_50M_SR_W.tif",
+            "size_bytes": 175041354
+          },
+          {
+            "dataset": "NE1_HR_LC_SR_W_DR",
+            "name": "NE1_HR_LC_SR_W_DR.tif",
+            "path": "F:\\ReferenceData\\natural_earth\\raster\\NE1_HR_LC_SR_W_DR\\NE1_HR_LC_SR_W_DR.tif",
+            "size_bytes": 699969932
+          }
+        ],
+        "status": "ready"
+      }
+    }
+  }
+}

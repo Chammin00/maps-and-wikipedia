@@ -1,0 +1,33 @@
+# Python & Test Caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Large Offline Reference Datasets (stored on F:\ReferenceData)
+*.zim
+*.sqlite
+*.sqlite3
+*.db
+*.gpkg
+*.tif
+*.tiff
+*.zip
+
+# Environment & Secrets
+.env
+.env.*
+
+# Logs & Temporary
+*.log
+*.tmp
+
+# System & Editor
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
